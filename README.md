@@ -80,7 +80,6 @@ Structure
 ├── dist                     # Packaged apps will make their way here
 ├── electron                 # Electron code (ipc coming soon)
 ├── public                   # Static public assets (not imported anywhere in source code)
-├── resources                # App resources (such as icons)
 ├── server                   # Express application that provides webpack middleware
 │   └── main.js              # Server application entry point
 ├── src                      # Application source code

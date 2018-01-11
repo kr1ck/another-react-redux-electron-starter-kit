@@ -36,14 +36,14 @@
     "productName": "React Redux Electron Starter",
     "appId": "YourBundleId",
     "win": {
-      "icon": "resources/assets/icons/win/icon.ico"
+      "icon": "public/assets/icons/win/icon.ico"
     },
     "mac": {
       "category": "your.app.category.type",
-      "icon": "resources/assets/icons/mac/icon.icns"
+      "icon": "public/assets/icons/mac/icon.icns"
     },
     "linux": {
-      "icon": "resources/assets/icons/png"
+      "icon": "public/assets/icons/png"
     },
     "files": [
       "**/*",

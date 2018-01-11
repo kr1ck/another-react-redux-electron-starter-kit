@@ -34,7 +34,7 @@ const compile = () => Promise.resolve()
   .then((stats) => {
     logger.info(`Copying static assets from ./public to ./${project.outDir}.`)
     ncp(
-      path.resolve(project.basePath, 'resources'),
+      path.resolve(project.basePath, 'public'),
       path.resolve(project.basePath, project.outDir)
     )
     return stats
