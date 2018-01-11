@@ -5,7 +5,7 @@ const app = electron.app
 const BrowserWindow = electron.BrowserWindow
 const nativeImage = electron.nativeImage
 const appIcon = nativeImage.createFromPath(process.env.NODE_ENV === 'development'
-  ? './public/assets/win/icon.ico'
+  ? './resources/assets/win/icon.ico'
   : './assets/win/icon.ico'
 )
 
